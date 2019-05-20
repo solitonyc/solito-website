@@ -1,4 +1,5 @@
 	@import url('https://fonts.googleapis.com/css?family=Montserrat');
+	@import url('https://fonts.googleapis.com/css?family=Roboto:900&display=swap');
 	
 	* {
 		margin: 0;
@@ -45,13 +46,15 @@
 	}
 	
 	h1 {
+		font-family: 'Roboto', sans-serif;
 		font-size: 40px;
-		color: black;
+		color: rgb(60, 61, 80);
 		padding-top: 24px;
 		padding-left: 24px;
 		padding-bottom: 12px;
 		}
 	h2 {
+		font-family: 'Roboto', sans-serif;
 		font-size: 30px;
 		font-weight: 400;
 		color: #235789;	
@@ -179,17 +182,19 @@ ul {
 		padding-left: 48px;
 	}
 
-	.portfolio_item {
+	.portfolio_item_a {
 		padding: 24px;
-		margin: 24px;
-		border: 1px solid rgb(200, 205, 206);
-		border-radius: 12px;
 		background: rgb(227, 228, 240);
+	}
+
+	.portfolio_item_b {
+		padding: 24px;
 	}
 
 	.portfolio_img {
 		margin-left: 48px;
 		margin-bottom: 24px;
-		border: #ffffff 18px solid;
+		
+		border: #353232 1px solid;
 		border-radius: 12px;
 	}
