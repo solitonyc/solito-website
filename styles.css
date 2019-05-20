@@ -1,0 +1,195 @@
+	@import url('https://fonts.googleapis.com/css?family=Montserrat');
+	
+	* {
+		margin: 0;
+		padding: 0;
+		font-family: 'Montserrat', sans-serif;
+		}
+/* ------------------ header section ---------------------- */
+	.header {
+		background: #35222B;
+		font-family: 'Montserrat', sans-serif;
+		padding-left: 24px;
+		padding-top: 24px;
+		padding-bottom: 24px;
+		text-align: left;		
+		}
+	.name {
+		color: white;
+		font-size: 34px;
+		padding-left: 24px;
+	}
+	.info {
+		color: white;
+		font-size: 18px;
+		padding-left: 24px;
+	}
+	h1.header {
+		color: white;
+		font-size: 24px;
+		padding-left: 24px;
+	}	
+	p.header {
+		color: white;
+		font-size: 14px;
+	}
+
+	.linkedin_link {
+		text-decoration: none;
+		color: white;
+	}
+
+/* ---------------------- main body ---------------------------*/
+	.main {
+		padding-left: 24px;
+	}
+	
+	h1 {
+		font-size: 40px;
+		color: black;
+		padding-top: 24px;
+		padding-left: 24px;
+		padding-bottom: 12px;
+		}
+	h2 {
+		font-size: 30px;
+		font-weight: 400;
+		color: #235789;	
+		padding-top: 20px;
+		padding-left: 36px;
+		padding-bottom: 12px;
+	}
+	h3 {		
+		font-size: 24px;
+		font-weight: 400;
+		color: #235789;	
+		padding-left: 48px;
+		padding-bottom: 12px;
+	}
+	p {
+		font-size: 14px;
+		color: #253031;
+		padding-left: 48px;
+		padding-bottom: 12px;
+	}
+	img {
+		padding-top: 0px;
+		padding-right: 0px;
+	}
+	img.headshot {
+		float: right;
+		max-height: 240px;
+		padding: 24px;
+	}
+	img.mainpagephoto {
+		float: center;
+		width: 100%;
+		padding-left: auto;
+		padding-right: auto;
+		padding-bottom: 24px;
+		margin-top: 18px;
+	}
+
+/* ---------------- SKILLS SECTION -------------------- */
+ul {
+	padding-left: 90px;
+	font-size: 14px;
+}
+
+
+/* Call Out Boxes */
+	.greenquote {
+		background-color: #D0FFAA;
+		padding: 20px;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		color:black;
+		font-size: 18px;
+		font-style: italic;
+		text-align: left;
+		width: 75%;
+		border-radius: 24px;
+	}
+
+/* Navigation Bar CSS Effects Starts Here */
+	nav {
+		width: 100%;
+		height: 62px;
+		background-color: #000000;
+	}
+	nav a {
+		display: block;
+		float: left;
+		font-family: sans-serif;
+		font-size: 14px;
+		color: white;
+		background-color: #000000;
+		padding: 23px 48px ;
+		text-decoration: none;
+	}
+	nav a:hover {
+		background-color: #D0FFAA;
+		color: blue;
+	}
+
+
+
+	/* ------------------------------- EXPERIENCE PAGE STYLES ---------------------------------*/
+	.job_title {
+		font-size: 32px;
+		padding-top: 24px;
+		padding-left: 48px;
+	}
+	.company_name {
+		font-size: 24px;
+		padding-left: 60px;
+	}
+	.dates_employed {
+		font-size: 16px;
+		padding-left: 78px;
+	}
+	.employment_duration {
+		font-size: 16px;
+		padding-left: 78px;
+	}
+	.location_style {
+		font-size: 16px;
+		padding-left: 78px;
+	}
+	.job_description {
+		font-size: 16px;
+		padding-left: 78px;
+		padding-right: 50px;
+	}
+
+	.experience_item_a {
+		background: rgb(227, 228, 240);
+		padding: 24px 0;
+	}
+
+	.experience_item_b {
+		padding: 24px 0;
+	}
+
+
+	/* ----------------------------------------- Portfolio Styles ---------------------------------- */
+
+	.link_app {
+		padding-left: 48px;
+	}
+
+	.portfolio_item {
+		padding: 24px;
+		margin: 24px;
+		border: 1px solid rgb(200, 205, 206);
+		border-radius: 12px;
+		background: rgb(227, 228, 240);
+	}
+
+	.portfolio_img {
+		margin-left: 48px;
+		margin-bottom: 24px;
+		border: #ffffff 18px solid;
+		border-radius: 12px;
+	}

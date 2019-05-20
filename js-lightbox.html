@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<meta name="My Lightbox" content="width=device-width, initial-scale=1">
+<head>
+	<title>Photography Lightbox</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<body-lightboxpage>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="solito-bio.html">Bio</a>
+		<a href="js-lightbox.html">Photography</a>
+	</nav>
+	<h1>Photography</h1>
+		<p>I really enjoy photography and video production. I've been taking photos and producing video for since my college days when everything was still film. I'm great at composition and editing.</p> 
+		<p>Today's technology makes what I do easier and even more enjoyable. I've done numerous paid sessions producing head shots and videos for corporate clients, YouTubers, pets and aspiring models.</p>
+			<p class="greenquote">Today's technology makes photography and video much easier and even more enjoyable. I've done numerous paid sessions producing head shots and videos for corporate clients, YouTubers, pets and aspiring models.</p>
+		<P>I have very professional equipment that's not at the budget of say a movie production company in hollywood, but I know how to make the best of what I have and still am able to produce a professional cinematic looks.</P>
+	<h2>My Photo Lightbox</h2>
+		<p>The lightbox below uses JS script to create the hover effects, modal box operation, and navigation. This lightbox and the main navigation bars were the most difficult part components of the site for me. I ran into a lot of conflicts with my existing classes. However, was able to identify all the conflicts using Chrome's inspect.</p>
+		<p> I really enjoyed deconstructing how the code works and refining it to work with my own images and existing styles. I resolved all the conflicts by either create new classes or adjusting some of my existing ones, of which some were doing nothing. I enjoyed playing with this code; it was fun!</p>
+	<div class="row">
+	  <div class="column">
+	    <img src="images/freedom-tower-streaks.jpg" style="width:100%; max-height: 70px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+	  </div>
+	  <div class="column">
+	    <img src="images/sf-bridge.jpg" style="width:100%; max-height: 70px;" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+	  </div>
+	  <div class="column">
+	    <img src="images/lackawanna-station.jpg" style="width:100%; max-height: 70px;" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+	  </div>
+	  <div class="column">
+	    <img src="images/signs-cp.jpg" style="width:100%; max-height: 70px;" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+	  </div>
+	</div>
+
+	<div id="myModal" class="modal">
+	  <span class="close cursor" onclick="closeModal()">&times;</span>
+	  <div class="modal-content">
+
+	    <div class="mySlides">
+	      <div class="numbertext">1 / 4</div>
+	      <img src="images/freedom-tower-streaks.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">2 / 4</div>
+	      <img src="images/sf-bridge.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">3 / 4</div>
+	      <img src="images/lackawanna-station.jpg" style="width:100%">
+	    </div>
+	    
+	    <div class="mySlides">
+	      <div class="numbertext">4 / 4</div>
+	      <img src="images/signs-cp.jpg" style="width:100%">
+	    </div>
+	    
+	    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	    <div class="caption-container">
+	      <p id="caption"></p>
+	    </div>
+
+
+	    <div class="column">
+	      <img class="demo cursor" src="images/freedom-tower-streaks.jpg" style="width:100%" onclick="currentSlide(1)" alt="Streaking to New York">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="images/sf-bridge.jpg" style="width:100%" onclick="currentSlide(2)" alt="San Francisco">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="images/lackawanna-station.jpg" style="width:100%" onclick="currentSlide(3)" alt="Hoboken Lights">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="images/signs-cp.jpg" style="width:100%" onclick="currentSlide(4)" alt="Central Park Signs">
+	    </div>
+	  </div>
+	</div>
+</body-lightboxpage>
+<h1>Video Production</h1>
+<h2>Time Lapse Video #1</h2>
+<p>Here are some cool time lapse videos I took last year. The one below was taken in The Heights in Jersey City. There are these cliffs that overlook Hoboken and the Freedom Tower.</p>
+<video controls="">
+	<source src="images/freedom-tower-timelapse-wmusic.mp4" type="">
+</video>
+<h2>Time Lapse Video #2</h2>
+<p>This is a cool video from Central Park I produced a couple of summers ago. It shows just how busy the park is during the summer.</p>
+<video controls="">
+	<source src="images/cpark-tourists-wmusic.mp4" type="">
+</video>
+<script src="javascript.js"></script>
+</body>
+</html>
