@@ -17,12 +17,12 @@
 		}
 	.name {
 		color: white;
-		font-size: 34px;
+		font-size: 40px;
 		padding-left: 24px;
 	}
 	.info {
 		color: white;
-		font-size: 18px;
+		font-size: 16px;
 		padding-left: 24px;
 	}
 	h1.header {
@@ -41,13 +41,25 @@
 	}
 
 /* ------------- BODY -------------- */
-	.main {
+body {
+	background-color: white;
+	
+}
+.main_index {
+		display: block;
+		position: fixed;
 		padding-left: 24px;
+		background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/home_bg.jpg);
+		background-repeat: repeat;
+		background-size: cover;
+		background-color: #35222B;
+		height: 100%;
+		
 	}
 	
 	h1 {
 		font-family: 'Roboto', sans-serif;
-		font-size: 40px;
+		font-size: 36px;
 		color: rgb(60, 61, 80);
 		padding-top: 24px;
 		padding-left: 24px;
@@ -56,18 +68,28 @@
 		}
 	h2 {
 		font-family: 'Roboto', sans-serif;
-		font-size: 30px;
+		font-size: 24px;
 		font-weight: 400;
 		color: #235789;	
 		padding-top: 20px;
-		padding-left: 48px;
+		padding-left: 24px;
 		padding-bottom: 12px;
 	}
 	h3 {		
 		font-family: 'Roboto', sans-serif;
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 400;
 		color: #235789;	
+		padding-top: 12px;
+		padding-left: 48px;
+		padding-bottom: 12px;
+	}
+	h4 {
+		font-family: 'Roboto', sans-serif;
+		font-size: 18px;
+		font-weight: 400;
+		color: #235789;
+		padding-top: 12px;
 		padding-left: 48px;
 		padding-bottom: 12px;
 	}
@@ -75,6 +97,7 @@
 		font-size: 14px;
 		color: #253031;
 		padding-left: 48px;
+		padding-right: 24px;
 		padding-bottom: 12px;
 	}
 	img {
@@ -85,6 +108,8 @@
 		float: right;
 		max-height: 240px;
 		padding: 24px;
+		position: relative;
+		z-index: 5;
 	}
 	img.mainpagephoto {
 		float: center;
@@ -95,7 +120,13 @@
 		margin-top: 18px;
 	}
 
-/* ---------------- SKILLS PAGE -------------------- */
+/* --------------- SUMMARY SECTION -------------------*/
+
+	.home_page {
+		color: white;
+	}
+
+/* ---------------- SKILLS SECTION -------------------- */
 ul {
 	padding-left: 90px;
 	font-size: 14px;
@@ -127,15 +158,15 @@ ul {
 		display: block;
 		float: left;
 		font-family: sans-serif;
-		font-size: 14px;
-		color: white;
+		font-size: 16px;
+		color: rgb(131, 149, 163);
 		background-color: #000000;
 		padding: 23px 48px ;
 		text-decoration: none;
 	}
 	nav a:hover {
 		background-color: #D0FFAA;
-		color: blue;
+		color: rgb(34, 34, 41);
 	}
 
 
@@ -205,15 +236,23 @@ ul {
 		width: 700px;
 	}
 
+	.portfolio_title {
+		color: #000000;
+		padding-left: 48px;
+	}
+
+	.portfolio_content {
+		padding-left: 48px;
+	}
+
 	.img_click {
 		font-style: italic;
-		margin-top: 12px;
-		color: rgb(92, 10, 95);
+		color: rgb(45, 13, 160);
 	}
 
 	.portfolio_img {
 		margin-left: 48px;
 		margin-bottom: 24px;
-		border: #ffffff 3px solid;
+		border: rgb(12, 12, 12) 2px solid;
 		border-radius: 12px;
 	}
