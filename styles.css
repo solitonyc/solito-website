@@ -47,16 +47,34 @@ body {
 }
 .main_index {
 		display: block;
-		position: fixed;
+		position: absolute;
 		padding-left: 24px;
 		background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/home_bg.jpg);
-		background-repeat: repeat;
+		background-repeat: none;
 		background-size: cover;
 		background-color: #35222B;
 		height: 100%;
 		
 	}
 	
+.skills_columns {
+		display: flex;
+		padding-right: 24px;
+
+}
+
+.column_management {
+
+}
+
+.column_business {
+
+}
+
+.column_technical {
+
+}
+
 	h1 {
 		font-family: 'Roboto', sans-serif;
 		font-size: 36px;
