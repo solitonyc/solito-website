@@ -37,7 +37,7 @@
 
 	.linkedin_link {
 		text-decoration: none;
-		color: white;
+		color: rgb(131, 149, 163);
 	}
 
 /* ------------- BODY -------------- */
@@ -67,7 +67,7 @@ body {
 
 .column_container {
 		width: 376px;
-		background-color: rgba(0, 0, 0, 0.2);
+		background-color: rgba(0, 0, 0, 0.3);
 		border-radius: 12px;
 		padding-bottom: 12px;
 		padding-top: 12px;
